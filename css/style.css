@@ -38,6 +38,7 @@ h1 {
     font-variant: small-caps;
 }
 
+/*----------MENU-----------*/
 nav ul li {
     color: white;
     border-bottom: solid 1px white;
@@ -47,4 +48,34 @@ nav ul li {
 
 .menu-list-visibility {
     display: none;
+}
+
+div.hamburger-line {
+    width: 2.5rem;
+    border-radius: 5rem;
+    height: 3px;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 0.05rem;
+    margin: 0.45rem;
+    transition: 0.4s ease-in-out;
+}
+
+div.line-one-animation {
+    transform: translateY(0.5rem) rotate(-45deg);
+    transition: 0.4s ease-in-out;
+}
+
+div.line-two-animation {
+    transform: translateX(-150%);
+    transition: 0.4s ease-in-out;
+}
+
+div.line-three-animation {
+    transform: translateY(-0.75rem) rotate(45deg);
+    transition: 0.4s ease-in-out;
+}
+
+/*----------SECTION-----------*/
+section#main {
 }

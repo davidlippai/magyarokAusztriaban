@@ -1,10 +1,12 @@
-/*let hamburgerMenuBtn = document.getElementById("hamburgerMenuBtn");
-let menuToggle = document.getElementById("menu-list");
+let lineOne = document.getElementById("line-one");
+let lineTwo = document.getElementById("line-two");
+let lineThree = document.getElementById("line-three")
 
-/*hamburgerMenuBtn.addEventListener('click', function(){
-  menuToggle.classList.toggle("menu-list-visibility");
-})*/
 
 $("#hamburgerMenuBtn").click(function(){
   $("#menu-list").slideToggle("600");
+  lineOne.classList.toggle("line-one-animation");
+  lineTwo.classList.toggle("line-two-animation");
+  lineThree.classList.toggle("line-three-animation");
 })
+
