@@ -23,31 +23,54 @@ div.head {
 /*--------------Wrapper----------*/
 
 div#wrapper {
-    max-width: 96vw;
     margin: 0 auto;
 }
 
 h1 {
     margin-bottom: 0.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(70, 62, 62);
     text-align: center;
     line-height: 2rem;
     letter-spacing: 0.25rem;
     font-family: "Oswald", sans-serif;
     padding: 1rem;
     font-variant: small-caps;
+    background-color: white;
 }
 
 /*----------MENU-----------*/
+
 nav ul li {
-    color: white;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px #0c4f48;
     font-size: 1.5rem;
+    letter-spacing: 0.25rem;
     padding: 0.5rem;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: rgb(70, 62, 62);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #168d81;
+    margin-left: 0.25rem;
+    letter-spacing: 0.35rem;
+    transition: ease-in-out 0.15s;
+}
+
+ul {
+    background-color: white;
 }
 
 .menu-list-visibility {
     display: none;
+}
+
+div#hamburgerMenu {
+    cursor: pointer;
+    margin: 1rem 0;
 }
 
 div.hamburger-line {
