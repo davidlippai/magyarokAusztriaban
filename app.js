@@ -10,3 +10,9 @@ $("#hamburgerMenuBtn").click(function(){
   lineThree.classList.toggle("line-three-animation");
 })
 
+
+
+
+$("#provinz").click(function(){
+  $(".provinz-list").slideToggle("600");
+})

@@ -24,6 +24,7 @@ div.head {
 
 div#wrapper {
     margin: 0 auto;
+    display: grid;
 }
 
 h1 {
@@ -64,8 +65,13 @@ ul {
     background-color: white;
 }
 
-.menu-list-visibility {
+.menu-list-visibility,
+.provinz-list {
     display: none;
+}
+
+.provinz-list li {
+    font-size: 1.1rem;
 }
 
 div#hamburgerMenu {
