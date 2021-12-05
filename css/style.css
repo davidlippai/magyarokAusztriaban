@@ -1,0 +1,50 @@
+/*=========HEADER=====*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0 auto;
+    background-color: #0c4f48;
+}
+
+/*----------HEADER - H1 - ------*/
+div.head {
+    background-image: url("../img/flag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+/*--------------Wrapper----------*/
+
+div#wrapper {
+    max-width: 96vw;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 0.25rem;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+    font-variant: small-caps;
+}
+
+nav ul li {
+    color: white;
+    border-bottom: solid 1px white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.menu-list-visibility {
+    display: none;
+}
