@@ -8,8 +8,19 @@
             type="text/javascript"
             src="https://code.jquery.com/jquery-3.3.1.js"
         ></script>
+        <meta
+            name="description"
+            content="Magyarok ausztriában, ausztriai Magyaroknak minden info egy helyen, összegezve, milyen külföldi magyarnak lenni, és mi a helyzet Nyugat Európában"
+        />
         <meta name="author" content="David Lippai" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -27,10 +38,10 @@
     <body>
         <div id="wrapper">
             <header>
-                <div class="head"></div>
-                <h1>Magyarokausztriában.at</h1>
+                <h1 id="adress">Magyarokausztriaban.at</h1>
             </header>
             <nav id="menu">
+                <div id="ham-and-actual-page">
                 <div id="hamburgerMenu">
                     <div id="hamburgerMenuBtn">
                         <div id="line-one" class="hamburger-line"></div>
@@ -38,20 +49,22 @@
                         <div id="line-three" class="hamburger-line"></div>
                     </div>
                 </div>
+                <h2 id="aktiv-page-name">Home</h2>
+            </div>
                 <ul id="menu-list" class="menu-list-visibility">
                     <li><a href="#">Főoldal</a></li>
                     <li>
                         <a id="provinz" href="#">Tartományok</a>
                         <ul class="provinz-list">
                             <li><a href="#">Burgerland</a></li>
-                            <li>Kärnten</li>
-                            <li>Niederösterreich</li>
-                            <li>Oberösterreich</li>
-                            <li>Salzburg</li>
-                            <li>Steiermark</li>
-                            <li>Tirol</li>
-                            <li>Vorarlberg</li>
-                            <li>Wien</li>
+                            <li><a href="#">Kärnten</a></li>
+                            <li><a href="#">Niederösterreich</a></li>
+                            <li><a href="#">Oberösterreich</a></li>
+                            <li><a href="#">Salzburg</a></li>
+                            <li><a href="#">Steiermark</a></li>
+                            <li><a href="#">Tirol</a></li>
+                            <li><a href="#">Vorarlberg</a></li>
+                            <li><a href="#">Wien</a></li>
                         </ul>
                     </li>
                     <li><a href="#">S.O.S.</a></li>
@@ -59,11 +72,66 @@
                 </ul>
             </nav>
             <section id="main">
+                <h2>Országos hírek</h2>
+                <p id="first-paragraph">                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                    numquam, necessitatibus repudiandae nobis deleniti provident
+                    possimus odit aut aperiam iusto omnis harum vero adipisci nemo
+                    praesentium nostrum et hic excepturi. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Porro ut saepe facere quam
+                    molestiae aut doloremque delectus reprehenderit! Perferendis
+                    ratione dignissimos dicta sint cupiditate quas expedita ad
+                    excepturi dolore ea? Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Sint numquam, necessitatibus repudiandae nobis
+                    deleniti provident possimus odit aut aperiam iusto omnis harum
+                    vero adipisci nemo praesentium nostrum et hic excepturi. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Porro ut
+                    saepe facere quam molestiae aut doloremque delectus
+                    reprehenderit! Perferendis ratione dignissimos dicta sint
+                    cupiditate quas expedita ad excepturi dolore ea?</p>
+                    <div  id="second-paragraph">
+                <h2>Országos hírek</h2>
+                    <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                        numquam, necessitatibus repudiandae nobis deleniti provident
+                        possimus odit aut aperiam iusto omnis harum vero adipisci nemo
+                        praesentium nostrum et hic excepturi. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Porro ut saepe facere quam
+                        molestiae aut doloremque delectus reprehenderit! Perferendis
+                        ratione dignissimos dicta sint cupiditate quas expedita ad
+</p>
+                    </div>
+                <h2>Országos hírek</h2>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
                 numquam, necessitatibus repudiandae nobis deleniti provident
                 possimus odit aut aperiam iusto omnis harum vero adipisci nemo
-                praesentium nostrum et hic excepturi.
+                praesentium nostrum et hic excepturi. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Porro ut saepe facere quam
+                molestiae aut doloremque delectus reprehenderit! Perferendis
+                ratione dignissimos dicta sint cupiditate quas expedita ad
+                excepturi dolore ea? Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Sint numquam, necessitatibus repudiandae nobis
+                deleniti provident possimus odit aut aperiam iusto omnis harum
+                vero adipisci nemo praesentium nostrum et hic excepturi. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Porro ut
+                saepe facere quam molestiae aut doloremque delectus
+                reprehenderit! Perferendis ratione dignissimos dicta sint
+                cupiditate quas expedita ad excepturi dolore ea?
+                EMBEREEEEEEEEEEEEEEEEEEK
             </section>
+            <aside id="social-media">
+                <a href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-2x fa-instagram"></i></i></a>
+                <a href="#"><i class="fab fa-2x fa-twitter-square"></i></i></a>
+            </aside>
+            <footer>
+                <div id="contact-box">
+                <h4>Business Contact</h4>
+                <p id="email-adress">info@magyarokausztriaban.at</p>
+            </div>
+                <a href="#adress"><div id="house-icon"><i class="fas fa-2x fa-home"></i></div></a>
+                <div id="contact-box">
+                    <h4>Contact</h4>
+                    <p id="telefon">+43 660 73 555 68</p>
+            </footer>
         </div>
         <script src="app.js"></script>
     </body>
