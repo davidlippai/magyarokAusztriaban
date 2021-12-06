@@ -123,6 +123,7 @@ div.hamburger-line {
 div.line-one-animation {
     transform: translateY(0.5rem) rotate(-45deg);
     transition: 0.4s ease-in-out;
+    background-color: #7c1034f8;
 }
 
 div.line-two-animation {
@@ -133,6 +134,7 @@ div.line-two-animation {
 div.line-three-animation {
     transform: translateY(-0.75rem) rotate(45deg);
     transition: 0.4s ease-in-out;
+    background-color: #7c1034f8;
 }
 
 /*----------SECTION-----------*/
