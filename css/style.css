@@ -93,6 +93,7 @@ nav ul li a:hover {
 
 ul {
     background-color: white;
+    list-style-type: none;
 }
 
 .menu-list-visibility,
@@ -150,7 +151,7 @@ section {
     margin: 0.35rem 0.5rem;
 }
 
-div#second-paragraph {
+div.second-paragraph {
     background-color: #0c4f48;
     margin: 1rem;
     padding: 0.5rem;
@@ -163,14 +164,16 @@ aside#social-media {
     max-height: 22vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: space-around;
     background-color: #7c1034f8;
     transition: all 0.6s ease-in-out;
     margin-top: 2rem;
     padding: 0.5rem;
     border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.25rem;
     position: sticky;
+    cursor: pointer;
     top: 0;
     -webkit-box-shadow: -6px 5px 10px 3px rgba(0, 0, 0, 0.2);
     box-shadow: -6px 5px 10px 3px rgba(0, 0, 0, 0.3);
@@ -178,7 +181,11 @@ aside#social-media {
 
 aside#social-media a {
     text-decoration: none;
-    color: #ffffff;
+    color: #dbdbdb;
+}
+
+aside#social-media a:hover {
+    color: white;
 }
 
 .slideIn {

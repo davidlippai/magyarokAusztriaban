@@ -18,8 +18,3 @@ $("#provinz").click(function(){
 
 //SOCIAL MEDIA ICONS --------------------
 
-let socialMediaBox = document.getElementById("social-media");
-
-socialMediaBox.addEventListener('click',function(){
-  socialMediaBox.classList.toggle("slideIn");
-})
