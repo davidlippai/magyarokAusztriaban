@@ -1,0 +1,19 @@
+p.first-p {
+    text-align: center;
+    letter-spacing: 0.15rem;
+    margin: 1rem;
+    padding: 2rem;
+    border: solid 3px #0c4f48;
+    border-radius: 0.5rem;
+    grid-column: 1/13;
+}
+
+p#second-p-contact {
+    background: #0c4f48;
+    color: white;
+    padding: 2rem;
+}
+
+aside#social-media {
+    transition: ease-in-out 1s;
+}

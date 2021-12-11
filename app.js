@@ -17,3 +17,8 @@ $("#provinz").click(function(){
 
 
 //SOCIAL MEDIA ICONS --------------------
+
+$("#sos").click(function(){
+  $(".sos-list").slideToggle("600");
+})
+

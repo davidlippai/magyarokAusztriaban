@@ -1,0 +1,38 @@
+p.first-p {
+    text-align: center;
+    letter-spacing: 0.15rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 3px #0c4f48;
+    border-radius: 0.5rem;
+    grid-column: 1/13;
+    font-size: 1.25rem;
+    background: #0c4f48;
+}
+
+section a {
+    text-decoration: none;
+    color: rgba(238, 234, 234, 0.856);
+}
+
+p.first-p:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    color: #0c4f48;
+    background: white;
+    font-weight: bold;
+}
+
+p#last-p-jobs {
+    background: white;
+}
+
+p.second-p {
+    text-align: center;
+    letter-spacing: 0.15rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    background: #0c4f48;
+}

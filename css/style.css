@@ -50,23 +50,24 @@ h1 {
     align-self: center;
     justify-self: center;
     grid-column: 2/4;
-    color: #0c4f48;
+    color: rgba(255, 255, 255, 0.747);
     letter-spacing: 0.75rem;
-    font-weight: 600;
-    font-size: 2.5rem;
+    font-weight: 500;
+    font-size: 2.2rem;
     font-family: "Luxurious Script", cursive;
-    text-shadow: 4px 3px 4px #a4a4a4;
+    text-shadow: 8px 3px 4px #050505;
 }
 
 #ham-and-actual-page {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    background: #0c4f48;
 }
-
 nav {
     grid-column: 1/13;
     border-bottom: solid 1px #0c4f48;
     border-top: solid 1px #0c4f48;
+    background-color: rgb(255, 255, 255);
     -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.37);
     box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.37);
 }
@@ -97,11 +98,13 @@ ul {
 }
 
 .menu-list-visibility,
-.provinz-list {
+.provinz-list,
+.sos-list {
     display: none;
 }
 
-.provinz-list li {
+.provinz-list li,
+.sos-list li {
     font-size: 1.1rem;
 }
 
@@ -115,7 +118,7 @@ div.hamburger-line {
     border-radius: 5rem;
     height: 3px;
     color: #0c4f48;
-    background-color: #0c4f48;
+    background-color: #ffffff;
     padding: 0.05rem;
     margin: 0.45rem;
     transition: 0.4s ease-in-out;
@@ -138,12 +141,17 @@ div.line-three-animation {
     background-color: #7c1034f8;
 }
 
+.sos-number {
+    display: none;
+}
+
 /*----------SECTION-----------*/
 
 section h2 {
     text-align: center;
     border-top: solid 1px white;
     padding: 1rem;
+    letter-spacing: 0.15rem;
 }
 
 section {
@@ -161,36 +169,44 @@ div.second-paragraph {
 
 aside#social-media {
     grid-column: 12/13;
+    height: 20vh;
     max-height: 22vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
     background-color: #7c1034f8;
-    transition: all 0.6s ease-in-out;
     margin-top: 2rem;
     padding: 0.5rem;
     border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.75rem;
     position: sticky;
     cursor: pointer;
-    top: 0;
+    transition: all 0.6s ease-in-out;
+    top: 5rem;
     -webkit-box-shadow: -6px 5px 10px 3px rgba(0, 0, 0, 0.2);
     box-shadow: -6px 5px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
+aside#social-media:hover {
+    grid-column: 12/13;
+    transition: all 0.5s ease-in-out;
+    box-shadow: -6px 5px 10px 3px #b62354c7;
+}
+
 aside#social-media a {
     text-decoration: none;
-    color: #dbdbdb;
+    color: #c4c1c1;
 }
 
 aside#social-media a:hover {
+    transition: all 0.6s ease-in-out;
+    transform: rotate(360deg);
     color: white;
 }
 
-aside#social-media:hover {
-    transform: scale(1.1);
-    transition: all 0.6s ease-in-out;
+.column-change-social-media {
+    display: none;
 }
 
 /*---------FOOTER--------*/
@@ -221,7 +237,7 @@ footer a {
 }
 
 div.house-icon i {
-    border: solid 1px #0c4f48;
+    border: solid 2px #0c4f48;
     padding: 0.5rem;
     border-radius: 50%;
 }
@@ -248,3 +264,5 @@ h4 {
     font-size: 0.85rem;
     text-align: center;
 }
+
+/*--------------------kapcsolat.html------------------*/
