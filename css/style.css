@@ -265,4 +265,13 @@ h4 {
     text-align: center;
 }
 
-/*--------------------kapcsolat.html------------------*/
+/*----------------IMG FILES-------------*/
+
+img.header-img {
+    max-width: 100vw;
+    padding-top: 0.25rem;
+}
+
+figcaption {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+ul.university-list {
+    list-style-type: none;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.university-list li {
+    border-top: solid 1px #0c4f48;
+    color: #0c4f48;
+    padding: 1rem;
+    margin: 0.5rem;
+    background: white;
+    border-radius: 0.35rem;
+}
+
+.university-list a {
+    text-decoration: none;
+}
+
+.university-list li:hover {
+    color: white;
+    background: #0c4f48;
+    border: solid 1px white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+div#advertise {
+    background: white;
+    color: black;
+    border: solid 1px black;
+}
+
+div#advertise:hover {
+    transform: scale(1.05);
+    transition: all 0.6s ease-in-out;
+}
