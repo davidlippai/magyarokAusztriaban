@@ -50,7 +50,7 @@ h1 {
     align-self: center;
     justify-self: center;
     grid-column: 2/4;
-    color: rgba(255, 255, 255, 0.747);
+    color: rgba(255, 255, 255, 0.938);
     letter-spacing: 0.75rem;
     font-weight: 500;
     font-size: 2.2rem;
@@ -222,7 +222,7 @@ footer {
     overflow: hidden;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    border-top: solid 1px #0c4f48;
+    border-top: solid 2px #0c4f48;
     -webkit-box-shadow: 0px -6px 6px 0px rgba(0, 0, 0, 0.37);
     box-shadow: 0px -6px 6px 0px rgba(0, 0, 0, 0.37);
 }
@@ -250,6 +250,7 @@ footer div.house-icon {
 div.house-icon i:hover {
     background-color: #0c4f48;
     color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 h4 {
@@ -268,7 +269,7 @@ h4 {
 /*----------------IMG FILES-------------*/
 
 img.header-img {
-    max-width: 100vw;
+    max-width: 100%;
     padding-top: 0.25rem;
 }
 

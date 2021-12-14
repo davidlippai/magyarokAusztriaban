@@ -21,7 +21,7 @@ ul.university-list {
     color: white;
     background: #0c4f48;
     border: solid 1px white;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 

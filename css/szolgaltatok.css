@@ -1,0 +1,42 @@
+img#logo {
+    opacity: 0.2;
+}
+
+section table {
+    border: none;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: solid 2px #0c4f48;
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.37);
+    height: 60vh;
+    text-align: center;
+    margin: 0;
+}
+
+
+th, td {
+    padding: 0.35rem;
+}
+
+thead {
+    background-color: #0c4f48;
+    
+}
+
+th {
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 0.25rem;
+}
+
+tr:nth-child(even){
+    background-color: #e2e0e0;
+    color: rgb(0, 0, 0);
+}
+
+section {
+    grid-column: 1/13;
+}
+
+
