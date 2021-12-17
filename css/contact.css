@@ -6,14 +6,24 @@ p.first-p {
     border: solid 3px #0c4f48;
     border-radius: 0.5rem;
     grid-column: 1/13;
+    height: 30vh;
 }
 
 p#second-p-contact {
     background: #0c4f48;
     color: white;
     padding: 2rem;
+    height: 30vh;
 }
 
 aside#social-media {
     transition: ease-in-out 1s;
+}
+
+@media screen and (min-width: 614px) {
+    p#second-p-contact, p.first-p {
+        height: auto;
+        width: 50%;
+        margin: 2rem auto;
+    }
 }

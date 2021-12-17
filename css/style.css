@@ -26,7 +26,7 @@ header {
 div#wrapper {
     margin: 0 auto;
     display: grid;
-    max-width: 960px;
+    max-width: 1024px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: minmax(3rem, auto);
     grid-gap: 0.5rem;
@@ -74,7 +74,7 @@ nav {
 
 nav ul li {
     border-bottom: solid 1px #0c4f48;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     letter-spacing: 0.25rem;
     padding: 0.5rem;
     font-weight: 600;
@@ -88,13 +88,16 @@ nav ul li a {
 nav ul li a:hover {
     color: #168d81;
     margin-left: 0.25rem;
-    letter-spacing: 0.35rem;
     transition: ease-in-out 0.15s;
 }
 
 ul {
     background-color: white;
     list-style-type: none;
+}
+
+h2#long-name {
+    grid-column: 3/4;
 }
 
 .menu-list-visibility,
@@ -161,7 +164,7 @@ section {
 
 div.second-paragraph {
     background-color: #0c4f48;
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 0.5rem;
     border-radius: 0.5rem;
     color: white;
@@ -181,7 +184,6 @@ aside#social-media {
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
     position: sticky;
-    cursor: pointer;
     transition: all 0.6s ease-in-out;
     top: 5rem;
     -webkit-box-shadow: -6px 5px 10px 3px rgba(0, 0, 0, 0.2);
@@ -199,7 +201,7 @@ aside#social-media a {
     color: #c4c1c1;
 }
 
-aside#social-media a:hover {
+aside#social-media a i:hover {
     transition: all 0.6s ease-in-out;
     transform: rotate(360deg);
     color: white;
@@ -275,4 +277,78 @@ img.header-img {
 
 figcaption {
     text-align: center;
+}
+
+
+/* ---------------- MEDIA Querry MORE THEN 768px -----------------*/
+
+@media screen and (min-width: 614px) {
+
+    div#hamburgerMenu {
+        display: none;
+    }
+    #menu-list {
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        border-bottom: none;
+    }
+
+    nav ul li:hover {
+        letter-spacing: none;
+    }
+
+    #aktiv-page-name {
+        padding: 0.75rem;
+    }
+
+    .provinz-list li, .sos-list li  {
+        font-size: 0.85rem;
+    }
+
+    section {
+        grid-column: 1/13;
+    }
+
+    .second-paragraph {
+        width: 75%;
+        margin: 1rem auto;
+    }
+
+    section table {
+        padding: 0.15rem;
+    }
+
+    aside#social-media {
+        grid-column: 5/9;
+        height: auto;
+        max-height: auto;
+        flex-direction: row;
+        border-top-left-radius: 0.35rem;
+        border-top-right-radius: 0.35rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    aside#social-media:hover {
+        grid-column: 5/9;
+    }
+
+    aside#social-media a i {
+        padding: 0.5rem;
+    }
+
+    footer {
+        display: none;
+    }
+
+    img.header-img {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+        height: 22vh;
+        border-radius: 0.5rem;
+        padding-top: 0.25rem;
+    }
 }
